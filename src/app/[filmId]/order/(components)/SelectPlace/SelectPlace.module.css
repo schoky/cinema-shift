@@ -1,0 +1,15 @@
+.matrix_container {
+    gap: 24px;
+    width: fit-content;
+    margin-top: 48px;
+}
+
+.screen {
+    margin: 0 auto;
+    max-width: 410px;
+    height: 16px;
+    background-color: #CED2DA;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+

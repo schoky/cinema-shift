@@ -1,0 +1,25 @@
+.container {
+    overflow-x: auto;
+}
+
+.tabs div:global(.mantine-SegmentedControl-control)::before {
+    top: 5px;
+    bottom: 5px;
+}
+
+.tabs span:global(.mantine-SegmentedControl-indicator) {
+    border-radius: 14px;
+}
+
+.btn {
+    min-width: 75px;
+    border-radius: 14px;
+    padding: 10px 16px;
+    /* border-color: #CED2DA; */
+    font-weight: 400;
+}
+
+.btn.active {
+    background-color: #97A1AF;
+    color: #FFFFFF;
+}

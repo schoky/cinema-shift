@@ -1,0 +1,18 @@
+.nav {
+   border-bottom: 1px solid light-dark(#ced2da, #454647);
+   padding: 22px 0;
+   display: var(--nav-display);
+}
+
+.container {
+   margin: 0 auto;
+   width: 100%;
+   max-width: 960px;
+}
+
+@media (width <= 992px) {
+   .container {
+      padding: 0 16px;
+      margin: 0;
+   }
+}

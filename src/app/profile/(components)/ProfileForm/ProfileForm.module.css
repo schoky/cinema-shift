@@ -1,0 +1,11 @@
+.btn {
+    border-radius: 16px;
+    padding: 16px 32px;
+    height: auto;
+}
+
+@media (width <= 400px) {
+    .btn {
+        width: 100%;
+    }
+}

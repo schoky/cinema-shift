@@ -1,0 +1,9 @@
+.bottom_nav {
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   background-color: light-dark(white, var(--mantine-color-dark-7));
+   z-index: 10;
+   border-top: 1px solid light-dark(#ced2da, #454647);
+   display: var(--bottom-nav-display);
+}
